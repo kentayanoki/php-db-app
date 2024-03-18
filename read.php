@@ -1,8 +1,8 @@
 <?php
-$dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
-$user = 'root';
+$dsn = 'mysql:dbname=rjgqedb559o6j2v6;host=u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;charset=utf8mb4';
+$user = 'pms18gwki0ujlupj';
 // MAMPを利用しているMacユーザーの方は、''ではなく'root'を代入してください
-$password = '';
+$password = 'e993k924a4oucz7e';
  
 try {
     $pdo = new PDO($dsn, $user, $password);
@@ -101,7 +101,7 @@ try {
                     <th>単価</th>
                     <th>在庫数</th>
                     <th>仕入先コード</th>
-                    <th>編集<th>
+                    <th>編集</th>
                     <th>削除</th>
                 </tr>
                 <?php
